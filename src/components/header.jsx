@@ -3,7 +3,7 @@ import { FaEnvelope, FaHome, FaInfoCircle, FaTruck, FaArrowRight } from "react-i
 
 function Header() {
     return (
-        <header className="bg-white shadow-md p-4 flex justify-between items-center sticky top-0 z-50">
+        <header className="bg-white shadow-md p-4 flex justify-between items-center sticky left-0 w-full backdrop-blur-lg top-0 z-50">
            <Link to="/" className="flex items-center px-1 gap-1 font-medium mx-4"><FaTruck className="scale-x-[-1] text-2xl"/>MoveEasy</Link>
            <div className="gap-4 flex">
             <Link to="/home" className="flex items-center justify-center gap-2 group px-3 py-3 bg-gray-200 rounded-full group hover:bg-gray-300  transition-all duration-300">
