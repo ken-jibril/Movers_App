@@ -8,7 +8,7 @@ function HomePage() {
             <p className="mt-4 text-xl md:text-2xl lg:text-3xl text-white p-4 relative z-100 bg-opacity-50 ">Your trusted partner for seamless moving solutions.</p>
         </div>
         <div className="m-4">
-          <h2 className="text-4xl md:text-5xl lg:text-5xl font-bold text-white p-6 relative z-100 bg-opacity-50">Why Choose Us:</h2>
+          <h2 className="text-4xl md:text-5xl lg:text-5xl font-semibold text-white p-6 relative z-100 bg-opacity-50">Why Choose Us:</h2>
           <div className="flex flex-wrap gap-4">
             <p className="text-xl md:text-2xl lg:text-2xl font-bold text-white p-3 relative z-100 bg-opacity-50 bg-gray-400 rounded-full my-2 cursor-pointer">Fast & Reliable</p>
             <p className="text-xl md:text-2xl lg:text-2xl font-bold text-white p-3 relative z-100 bg-opacity-50 bg-gray-400 rounded-full my-2 cursor-pointer">Affordable Rates</p>
