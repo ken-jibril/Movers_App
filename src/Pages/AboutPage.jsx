@@ -1,22 +1,25 @@
 function AboutPage() {
     return ( 
-        <main className="min-h-screen justify-center m-0">
+        <main className="min-h-screen justify-center m-0 bg-gray-100">
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-center font-bold text-black mb-3 sm:mb-4 leading-tight">About Us</h1>
             <div className="flex flex-wrap justify-center gap-3 sm:gap-4 flex-col md:flex-row mt-4">
                 <img 
                     src="/pexels-rdne-7464383.jpg" 
                     alt="Two professional movers in uniforms carefully lifting a large cardboard box together in a bright, organized living room with wooden floors and modern furniture, conveying teamwork and reliability" 
-                    className="w-full max-w-xl h-auto shadow-2xl rounded-2xl hover:scale-101 transition-transform duration-300" 
+                    className="w-full max-w-xl h-auto shadow-2xl rounded-2xl hover:scale-101 transition-transform duration-300"
+                    loading="lazy" 
                 />
                 <img 
                     src="/pexels-rdne-7464467.jpg" 
                     alt="Mover in uniform smiling while carrying a stack of boxes through a sunlit hallway with white walls and framed pictures, creating a friendly and welcoming atmosphere" 
-                    className="w-full max-w-xl h-auto shadow-2xl rounded-2xl hover:scale-101 transition-transform duration-300" 
+                    className="w-full max-w-xl h-auto shadow-2xl rounded-2xl hover:scale-101 transition-transform duration-300"
+                    loading="lazy" 
                 />
                 <img 
                     src="/pexels-rdne-7464702.jpg" 
                     alt="Team of movers loading furniture and boxes into a moving truck parked outside a suburban home on a clear day, showing cooperation and a positive, energetic mood" 
-                    className="w-full max-w-xl h-auto shadow-2xl rounded-2xl hover:scale-101 transition-transform duration-300" 
+                    className="w-full max-w-xl h-auto shadow-2xl rounded-2xl hover:scale-101 transition-transform duration-300"
+                    loading="lazy" 
                 />
             </div>
             <div className="max-w-4xl px-5 mt-5 p-6 text-lg text-gray-800">
