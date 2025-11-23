@@ -2,7 +2,6 @@ import { Route, Routes } from "react-router-dom"
 import Header from "./components/header.jsx"
 import HomePage from "./Pages/HomePage.jsx"
 import AboutPage from "./Pages/AboutPage.jsx"
-import Footer from "./components/footer.jsx"
 import ContactPage from "./Pages/ContactPage.jsx"
 
 
@@ -20,9 +19,6 @@ function App() {
         <Route path="/about" element={<AboutPage />} />
         <Route path="/contact" element={<ContactPage />} />
       </Routes>
-
-      {/* Footer stays on the bottom */}
-      <Footer/>
     </>
   )
 }
