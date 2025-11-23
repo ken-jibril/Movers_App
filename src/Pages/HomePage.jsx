@@ -1,20 +1,45 @@
+import backgroundImage from '../assets/african-worker-in-a-movers-company.webp';
 
 function HomePage() {
     return ( 
-       <main className="bg-cover bg-center bg-no-repeat h-screen relative" style={{ backgroundImage: "url('/src/assets/african-worker-in-a-movers-company.webp')" }}>
-        <div className="absolute inset-0 bg-black/50"></div>
-        <div className="">
-            <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-white p-6 relative z-100 bg-opacity-50">Welcome to MoveEasy</h1>
-            <p className="mt-4 text-xl md:text-2xl lg:text-3xl text-white p-4 relative z-100 bg-opacity-50 ">Your trusted partner for seamless moving solutions.</p>
-        </div>
-        <div className="m-4">
-          <h2 className="text-4xl md:text-5xl lg:text-5xl font-semibold text-white p-6 relative z-100 bg-opacity-50">Why Choose Us:</h2>
-          <div className="flex flex-wrap gap-4">
-            <p className="text-xl md:text-2xl lg:text-2xl font-bold text-white p-3 relative z-100 bg-opacity-50 bg-gray-400 rounded-full my-2 cursor-pointer">Fast & Reliable</p>
-            <p className="text-xl md:text-2xl lg:text-2xl font-bold text-white p-3 relative z-100 bg-opacity-50 bg-gray-400 rounded-full my-2 cursor-pointer">Affordable Rates</p>
-            <p className="text-xl md:text-2xl lg:text-2xl font-bold text-white p-3 relative z-100 bg-opacity-50 bg-gray-400 rounded-full my-2 cursor-pointer">Professional Service</p>
+       <main 
+          className="bg-cover bg-center bg-no-repeat h-screen relative flex"
+          style={{ backgroundImage: `url(${backgroundImage})` }}
+       >
+          {/* Dark overlay */}
+          <div className="absolute inset-0 bg-black/45"></div>
+          
+          {/* Content container - centered vertically and horizontally */}
+          <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8 w-full">
+              
+              {/* Hero Section */}
+              <div className="text-center mb-8 sm:mb-12">
+                  <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-3 sm:mb-4 leading-tight">
+                      Welcome to MoveEasy
+                  </h1>
+                  <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-white px-2 sm:px-4">
+                      Your trusted partner for seamless moving solutions.
+                  </p>
+              </div>
+              
+              {/* Features Section */}
+              <div className="text-center max-w-4xl mx-auto">
+                  <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold text-white mb-4 sm:mb-6">
+                      Why Choose Us
+                  </h2>
+                  <div className="flex flex-wrap justify-center gap-3 sm:gap-4">
+                      <span className="text-sm sm:text-base md:text-lg lg:text-xl font-bold text-white px-4 sm:px-6 py-2 sm:py-3 bg-white/20 backdrop-blur-sm rounded-full hover:bg-white/30 transition-all cursor-pointer">
+                          ⚡ Fast & Reliable
+                      </span>
+                      <span className="text-sm sm:text-base md:text-lg lg:text-xl font-bold text-white px-4 sm:px-6 py-2 sm:py-3 bg-white/20 backdrop-blur-sm rounded-full hover:bg-white/30 transition-all cursor-pointer">
+                          💰 Affordable Rates
+                      </span>
+                      <span className="text-sm sm:text-base md:text-lg lg:text-xl font-bold text-white px-4 sm:px-6 py-2 sm:py-3 bg-white/20 backdrop-blur-sm rounded-full hover:bg-white/30 transition-all cursor-pointer">
+                          ⭐ Professional Service
+                      </span>
+                  </div>
+              </div>
           </div>
-        </div>
        </main>
      );
 }
