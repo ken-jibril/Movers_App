@@ -2,15 +2,16 @@ import backgroundImage from '../assets/african-worker-in-a-movers-company.webp';
 
 function HomePage() {
     return ( 
-       <main 
+      <>
+        <main 
           className="bg-cover bg-center bg-no-repeat h-screen relative flex"
           style={{ backgroundImage: `url(${backgroundImage})` }}
-       >
+        >
           {/* Dark overlay */}
           <div className="absolute inset-0 bg-black/45"></div>
           
           {/* Content container - centered vertically and horizontally */}
-          <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8 w-full">
+          <div className="relative z-10 container my-4 mx-auto px-4 sm:px-6 lg:px-8 w-full">
               
               {/* Hero Section */}
               <div className="text-center mb-8 sm:mb-12">
@@ -40,7 +41,8 @@ function HomePage() {
                   </div>
               </div>
           </div>
-       </main>
+        </main>
+      </>
      );
 }
 
