@@ -19,7 +19,7 @@ function Header() {
                 {/* Logo */}
                 <Link to="/" className="flex items-center gap-2 font-bold text-lg sm:text-xl" onClick={closeMenu}>
                     <FaTruck className="scale-x-[-1] text-2xl text-blue-600"/>
-                    <span className="text-gray-900">MoveEasy</span>
+                    <span className="text-gray-900">MoveMate</span>
                 </Link>
 
                 {/* Desktop Navigation - WITH YOUR HOVER EFFECTS */}

@@ -16,7 +16,7 @@ function HomePage() {
               {/* Hero Section */}
               <div className="text-center mb-8 sm:mb-12">
                   <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-3 sm:mb-4 leading-tight">
-                      Welcome to MoveEasy
+                      Welcome to MoveMate
                   </h1>
                   <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-white px-2 sm:px-4">
                       Your trusted partner for seamless moving solutions.

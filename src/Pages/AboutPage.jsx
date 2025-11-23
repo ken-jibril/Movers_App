@@ -33,7 +33,7 @@ function AboutPage() {
                 Our Story
                 </h2>
                 <p className="text-base sm:text-lg text-gray-700 leading-relaxed mb-4">
-                Founded in 2024, MoveEasy started with a simple mission: to make moving stress-free for families and businesses across Kenya. What began as a small team with one truck has grown into a trusted name in the industry.
+                Founded in 2024, MoveMate started with a simple mission: to make moving stress-free for families and businesses across Kenya. What began as a small team with one truck has grown into a trusted name in the industry.
                 </p>
                 <p className="text-base sm:text-lg text-gray-700 leading-relaxed">
                 Today, we've successfully completed over 5,000 moves and continue to set the standard for professional, reliable moving services. Our commitment to excellence has made us the go-to choice for anyone looking to relocate.
