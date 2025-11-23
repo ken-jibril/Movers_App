@@ -1,6 +1,6 @@
 function AboutPage() {
     return ( 
-        <main className="min-h-screen justify-center bg-gray-100 m-0">
+        <main className="min-h-screen justify-center m-0">
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-center font-bold text-black mb-3 sm:mb-4 leading-tight">About Us</h1>
             <div className="flex flex-wrap justify-center gap-3 sm:gap-4 flex-col md:flex-row mt-4">
                 <img 
