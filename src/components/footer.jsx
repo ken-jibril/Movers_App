@@ -90,7 +90,7 @@ function Footer() {
                             </li>
                             <li className="flex items-start gap-2">
                                 <FaMapMarkerAlt className="text-blue-500 mt-1" />
-                                <span>123 Moving Street, Westlands, Nairobi</span>
+                                <span>St.Bakhita Catholic Mukuru, Nairobi City, Kenya</span>
                             </li>
                         </ul>
                     </div>
