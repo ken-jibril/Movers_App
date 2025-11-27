@@ -64,7 +64,7 @@ function ContactPage() {
                                 Nairobi, Kenya
                             </p>
                             <p className="text-sm text-gray-600">
-                                123 Moving Street, Westlands
+                                St.Bakhita Catholic Mukuru, Nairobi City, Kenya
                             </p>
                         </div>
                         
@@ -77,14 +77,9 @@ function ContactPage() {
                                 <h3 className="text-xl font-bold text-gray-900">Business Hours</h3>
                             </div>
                             <p className="text-base text-gray-700 mb-1">
-                                <span className="font-semibold">Mon - Fri:</span> 8:00 AM - 6:00 PM
+                                <span className="font-semibold">We work 24/7</span>
                             </p>
-                            <p className="text-base text-gray-700 mb-1">
-                                <span className="font-semibold">Saturday:</span> 9:00 AM - 4:00 PM
-                            </p>
-                            <p className="text-base text-gray-700">
-                                <span className="font-semibold">Sunday:</span> Closed
-                            </p>
+                            
                         </div>
                     </div>
                     
